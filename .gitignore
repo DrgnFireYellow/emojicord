@@ -1,0 +1,7 @@
+input/*
+output/*
+full/emojis/*
+!*/.gitkeep
+!*/*/.gitkeep
+venv
+.DS_Store
