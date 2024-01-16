@@ -5,3 +5,4 @@ full/emojis/*
 !*/*/.gitkeep
 venv
 .DS_Store
+EmojiCollection.txt

@@ -5,7 +5,7 @@ EmojiCord is a tool to make images copy and pastable to look like a discord emoj
 ```
 pip install -r fullrequirements.txt
 cd full
-streamlit run "All Emoji.py"
+streamlit run "My Emoji.py"
 ```
 
 ## Full Version Mac (Recommended)
@@ -13,7 +13,7 @@ To run the full version, use the following commands:
 ```
 pip install -r fullrequirements.txt
 cd full
-streamlit run All\ Emoji.py
+streamlit run My\ Emoji.py
 ```
 
 ## Lite Version
