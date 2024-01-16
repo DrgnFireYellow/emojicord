@@ -2,7 +2,7 @@ from PIL import Image
 import os
 import streamlit
 
-streamlit.set_page_config("Add Emoji | EmojiCord")
+streamlit.set_page_config("Add Emoji | EmojiCord", page_icon="random")
 streamlit.write("# Add Emoji")
 emojifile = streamlit.file_uploader("Upload an image to convert into an emoji", ["png", "jpg", "gif"], False)
 def emojify():
