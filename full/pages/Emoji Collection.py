@@ -15,5 +15,6 @@ def addemoji():
 streamlit.button("Add emoji", on_click=addemoji)
 
 with open("EmojiCollection.txt") as emojicollectionfile:
-    for emoji in emojicollectionfile.readlines()[1:]:
-        streamlit.image(emoji.strip())
+    for emoji in emojicollectionfile.readlines():
+        if emoji != "\n":
+            streamlit.image(emoji.strip())
