@@ -8,7 +8,7 @@ cd full
 streamlit run "My Emoji.py"
 ```
 
-## Full Version Mac (Recommended)
+## Full Version Mac/Linux (Recommended)
 To run the full version, use the following commands:
 ```
 pip install -r fullrequirements.txt
